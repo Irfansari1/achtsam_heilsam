@@ -16,14 +16,18 @@ const MyNav = () => {
           eventKey === "startseite" ? navigate("/") : navigate(`/${eventKey}`)
         }
       >
-        <Container style={{ border: "2px solid red" }}>
+        <Container>
           <Navbar.Brand>
             <Nav.Link eventKey="startseite">
-              <img src={renlogo} alt="Renate Buchwald" />
+              <img
+                src={renlogo}
+                alt="Renate Buchwald"
+                style={{ width: "11rem", paddingLeft: "20px" }}
+              />
               <img
                 src={logo}
                 alt="Achtsam & Heilsam"
-                style={{ paddingLeft: "20px", border: "2px solid red" }}
+                style={{ width: "11rem", paddingLeft: "20px" }}
               />
             </Nav.Link>
           </Navbar.Brand>
