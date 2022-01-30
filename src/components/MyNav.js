@@ -4,19 +4,21 @@ import logo from "../img/achtsamlogo.png";
 import renlogo from "../img/renlogo.png";
 import { useNavigate } from "react-router-dom";
 
+//navbar content clash must be fixed!!!!!!!!!
+
 const MyNav = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <Navbar
-        style={{ position: "fixed-top" }}
-        bg="light"
-        expand="lg"
-        onSelect={(eventKey) =>
-          eventKey === "startseite" ? navigate("/") : navigate(`/${eventKey}`)
-        }
-      >
-        <Container>
+      <Container>
+        <Navbar
+          className="fixed-top"
+          bg="light"
+          expand="lg"
+          onSelect={(eventKey) =>
+            eventKey === "startseite" ? navigate("/") : navigate(`/${eventKey}`)
+          }
+        >
           <Navbar.Brand>
             <Nav.Link eventKey="startseite">
               <img
@@ -55,8 +57,8 @@ const MyNav = () => {
               <Nav.Link eventKey="kontakt">Kontakt</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Container>
-      </Navbar>
+        </Navbar>
+      </Container>
     </div>
   );
 };

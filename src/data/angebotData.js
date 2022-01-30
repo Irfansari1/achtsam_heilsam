@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    name: "Familienstellen/Aufstellungen",
+    name: "Familienstellen/ Aufstellungen",
     link: "familien",
     text: "Freude und Leichtigkeit durch Auflösen bindender Verstrickungen und Freilegung des ureigenen Wesenskerns durch Familienstellen/Aufstellungen und Rückführungen",
     imageurl: require("../img/joy.jpg"),
@@ -22,7 +22,7 @@ const data = [
   },
   {
     id: 4,
-    name: "Hochzeitszeremonien/Rituale",
+    name: "Hochzeitszeremonien/ Rituale",
     link: "hochzeit",
     text: "Neuanfänge, Übergangs- und Umbruchssituationen achtungsvoll würdigen durch Hochzeits-Zeremonien und Rituale",
     imageurl: require("../img/wedding.jpg"),

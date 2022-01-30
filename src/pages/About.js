@@ -133,6 +133,10 @@ const About = () => {
           </p>
         </Col>
       </Row>
+      <br />
+      <br />
+      <br />
+      <br />
     </Container>
   );
 };

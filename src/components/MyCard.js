@@ -11,7 +11,7 @@ const MyCard = (props) => {
         <Card.Title>{name}</Card.Title>
         <Card.Text>{text}</Card.Text>
         <Button
-          style={{ background: "#C400FF" }}
+          style={{ background: "#1273DE" }}
           onClick={() => navigate(`/${link}`)}
         >
           Details

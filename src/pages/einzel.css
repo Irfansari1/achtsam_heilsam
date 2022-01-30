@@ -1,0 +1,130 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  color: #666;
+  line-height: 1.8rem;
+}
+.background--image1 {
+  background-image: url(../img/constellation.jpg);
+  min-height: 50rem;
+}
+.background--image2 {
+  background-image: url(../img/serenity.jpg);
+  min-height: 50rem;
+}
+.background--image3 {
+  background-image: url(../img/joy.jpg);
+  min-height: 50rem;
+}
+.background--image4 {
+  background-image: url(../img/medi.jpg);
+  min-height: 50rem;
+}
+.background--image5 {
+  background-image: url(../img/potential.jpg);
+  min-height: 50rem;
+}
+.background--image6 {
+  background-image: url(../img/stress.jpg);
+  min-height: 50rem;
+}
+.background--image1,
+.background--image2,
+.background--image3,
+.background--image4,
+.background--image5,
+.background--image6 {
+  position: relative;
+  opacity: 0.7;
+  /* Resmi en düzgün şekilde konumlandırma ve boyutlandırma*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* TODO : parallax efekti  */
+  background-attachment: fixed;
+}
+.heading-container {
+  top: 50%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+.heading-container__heading {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  border-radius: 2rem 0 2rem 0;
+  /* border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem; */
+  outline: 0.5rem inset rgb(240, 235, 240);
+  outline-offset: 1rem;
+  line-height: 5.2rem;
+}
+.heading-container__logo {
+  width: 30%;
+  opacity: 1;
+}
+.heading-container__text {
+  background-color: black;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 0.7rem 0 0.7rem 0;
+  line-height: 4rem;
+  outline: 0.4rem inset #282e34;
+  outline-offset: 0.2rem;
+  text-transform: capitalize;
+}
+.section {
+  text-align: left;
+  padding: 3rem 5rem;
+}
+.section--light {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+}
+.section--dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+h2 {
+  text-align: center;
+}
+@media (max-width: 760px) {
+  .heading-container {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+  }
+  .heading-container__heading {
+    padding: 1rem;
+    border-radius: 2rem 0 1rem 0;
+    /* border-top-left-radius: 2rem;
+            border-bottom-right-radius: 2rem; */
+    outline: 0.4rem inset rgb(240, 235, 240);
+    outline-offset: 0.2rem;
+    line-height: 3.4rem;
+  }
+  .heading-container__text {
+    padding: 0.4rem;
+    border-radius: 0.3rem 0 0.3rem 0;
+    line-height: 2.5rem;
+    outline: 0.2rem inset rgb(240, 235, 240);
+    outline-offset: 0.2rem;
+    text-transform: capitalize;
+  }
+  .section {
+    padding: 1.5rem 2rem;
+  }
+  .heading-container__logo {
+    width: 50%;
+    opacity: 1;
+  }
+}
