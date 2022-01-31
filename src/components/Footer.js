@@ -60,7 +60,15 @@ function Footer() {
         <div className="row">
           <p className="col-sm">
             &copy;{new Date().getFullYear()} ACHTSAM&HEILSAM | Alle Rechte
-            vorbehalten | Nutzungsbedingungen | Privatsphäre | Made with{" "}
+            vorbehalten |
+            <a
+              href="./haftung"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              {" "}
+              Haftungshinweis & Datenschutz
+            </a>{" "}
+            | Made with{" "}
             <svg
               viewBox="0 0 1792 1792"
               preserveAspectRatio="xMidYMid meet"

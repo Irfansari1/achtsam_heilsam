@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import wedding from "../img/wedding.jpg";
+import wedding3 from "../img/wedding3.jpg";
 //import serenity from "../img/serenity.jpg";
 import therapy from "../img/therapy.jpg";
 import meditation from "../img/meditation.jpg";
@@ -11,7 +11,7 @@ const Slider = () => {
     <div>
       <Carousel fade autoPlay={true} interval={5000}>
         <Carousel.Item>
-          <img className="d-block w-100" src={wedding} alt="First slide" />
+          <img className="d-block w-100" src={wedding3} alt="First slide" />
           <Carousel.Caption>
             <div
               style={{
@@ -31,17 +31,6 @@ const Slider = () => {
           <img className="d-block w-100" src={joy} alt="Second slide" />
 
           <Carousel.Caption>
-            <div
-              style={{
-                backgroundColor: "white",
-                opacity: "0.7",
-                borderRadius: "20px",
-              }}
-            >
-              <p style={{ color: "black", fontSize: "1em" }}>
-                Was ich Ihnen anbiete:
-              </p>
-            </div>
             <div
               style={{
                 backgroundColor: "white",
@@ -75,7 +64,7 @@ const Slider = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={meditation} alt="Third slide" />
+          <img className="d-block w-100" src={meditation} alt="Fouth slide" />
           <Carousel.Caption>
             <div
               style={{

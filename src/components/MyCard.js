@@ -1,8 +1,9 @@
 import { Card, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const MyCard = (props) => {
   const navigate = useNavigate();
+  const location = useLocation();
   const { text, name, imageurl, link } = props.myData;
 
   return (
@@ -11,12 +12,30 @@ const MyCard = (props) => {
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{text}</Card.Text>
-        <Button
+        {location === "Startseite" ? (
+          <Button
+            style={{ background: "#1273DE" }}
+            onClick={() => navigate(`/${link}`)}
+          >
+            Details
+          </Button>
+        ) : (
+          <Button
+            style={{ background: "#1273DE" }}
+            href={link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Details
+          </Button>
+        )}
+
+        {/* <Button
           style={{ background: "#1273DE" }}
           onClick={() => navigate(`/${link}`)}
         >
           Details
-        </Button>
+        </Button> */}
       </Card.Body>
     </Card>
   );

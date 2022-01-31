@@ -25,7 +25,7 @@ const data = [
     name: "Hochzeitszeremonien/ Rituale",
     link: "hochzeit",
     text: "Neuanfänge, Übergangs- und Umbruchssituationen achtungsvoll würdigen durch Hochzeits-Zeremonien und Rituale",
-    imageurl: require("../img/wedding.jpg"),
+    imageurl: require("../img/wedding3.jpg"),
   },
 ];
 
