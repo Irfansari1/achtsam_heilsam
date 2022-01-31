@@ -10,6 +10,7 @@ const Seminare = () => {
           <h1>Seminare & Kurse</h1>
           <br />
           <h3>Veranstaltungen 2022</h3>
+          <br />
           <p>
             Aus aktuellen Gründen werden Gruppenangebote voraussichtlich wieder
             ab April beginnen. Telefonisch oder auf mail-Anfragen kann ich
@@ -26,7 +27,7 @@ const Seminare = () => {
           </Button>
         </Col>
         <Col className="d-flex align-item-center justify-content-center">
-          <img src={seminar2} alt="leaves" className="rounded" />
+          <img src={seminar2} alt="seminar" className="rounded" />
         </Col>
       </Row>
     </Container>

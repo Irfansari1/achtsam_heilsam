@@ -50,19 +50,31 @@ const About = () => {
             auch der Weg sein. Doch wie schön ist es, nach dem Abstreifen einer
             „Zwiebelschale“ Lebensfreude zu spüren, inneren Frieden oder
             Selbstannahme und -liebe. Schwerpunkte meiner Arbeit heute sind:
-            <ul>
-              <li>
-                <Nav onSelect={clickHandler}>
+            <Nav onSelect={clickHandler}>
+              <ul>
+                <li>
                   <Nav.Link eventKey="familien">
                     Familienstellen & Systemische Aufstellungen
                   </Nav.Link>
-                </Nav>
-              </li>
-              <li>Rückführungen, Reinkarnationstherapie</li>
-              <li>Voice-Dialogue, EFT, Rituale</li>
-              <li>Individuelle Begleitung</li>
-              <li>Hochzeitszeremonien</li>
-            </ul>
+                </li>
+                <li>
+                  <Nav.Link eventKey="einzel">
+                    Rückführungen, Reinkarnationstherapie
+                  </Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link eventKey="einzel">
+                    Voice-Dialogue, EFT, Rituale
+                  </Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link eventKey="einzel">Individuelle Begleitung</Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link eventKey="hochzeit">Hochzeitszeremonien</Nav.Link>
+                </li>
+              </ul>
+            </Nav>
             In der „Individuellen Begleitung“ arbeite ich je nach Person,
             Stimmung, Verfassung & Lebensumständen mit vorgenannten Methoden,
             EFT und Ansätzen aus Gestalttherapie, Ritual- und schamanischer

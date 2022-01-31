@@ -1,13 +1,14 @@
-import { Nav, Col, Row, Container } from "react-bootstrap";
+import { Nav, Col, Row, Container, Button } from "react-bootstrap";
 import medi2 from "../img/medi2.jpg";
 import { useNavigate } from "react-router-dom";
+
 const Meditation = () => {
   const clickHandler = (eventKey) =>
     eventKey === "startseite" ? navigate("/") : navigate(`/${eventKey}`);
 
   const navigate = useNavigate();
   return (
-    <Container className="text-center mt-4">
+    <Container className=" text-center mt-4">
       <Row>
         <Col>
           <h1>Meditation & Entspannung</h1>
@@ -35,8 +36,11 @@ const Meditation = () => {
             mit Bewegungs- und Visualisationselementen gearbeitet. Der Kurs ist
             von den Krankenkassen anerkannt. Termine unter:
           </p>
-          <Nav onSelect={clickHandler}>
-            <Nav.Link eventKey="seminare">Seminar/Kurse</Nav.Link>
+
+          <Nav className="justify-content-center" onSelect={clickHandler}>
+            <Nav.Link eventKey="seminare">
+              <Button>Seminar/Kurse</Button>
+            </Nav.Link>
           </Nav>
         </Col>
         <Col className="d-flex align-item-center justify-content-center">

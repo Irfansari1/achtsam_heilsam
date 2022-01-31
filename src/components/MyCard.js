@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom";
 
 const MyCard = (props) => {
   const navigate = useNavigate();
-  const { text, name, imageurl, link } = props.angebot;
+  const { text, name, imageurl, link } = props.myData;
+
   return (
     <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src={imageurl} style={{ height: "11rem" }} />

@@ -9,7 +9,7 @@ const News = () => {
         <Col>
           <h1 style={{ textAlign: "center" }}>UBUNTU (Zulu)</h1>
           <br />
-          <h3>
+          <h3 style={{ textAlign: "center" }}>
             Menschlichkeit, Gemeinsinn, grundlegende Gutheit, Verbundenheit
           </h3>
           <br />
@@ -63,7 +63,6 @@ const News = () => {
         <Col>
           <h1 style={{ textAlign: "center" }}>Corona</h1>
           <br />
-
           <p>
             <img
               src={corona}
@@ -78,45 +77,43 @@ const News = () => {
             haben wir eine vernünftige Streitkultur verlernt, ohne den anderen
             in eine Schublade zu stecken? Lieber Ungeimpfter, vielleicht ist
             dein Mitmensch geimpft, weil…
-            <br />
-            <ul
-              style={{
-                display: "block",
-                align: "left",
-                textAlign: "left",
-              }}
-            >
-              <li>er jemanden wegen Corona verloren hat?</li>
-              <li>er seine Liebsten schützen möchte?</li>
-              <li>er Angst vor Corona hat?</li>
-              <li>er sonst seinen Job verloren hätte?</li>
-              <li>er wieder ein halbwegs normales Leben zurück möchte?</li>
-            </ul>
-            Lieber Geimpfter, vielleicht ist dein Mitmensch nicht geimpft, weil…{" "}
-            <br />
-            <ul
-              style={{
-                display: "block",
-                align: "left",
-                textAlign: "left",
-              }}
-            >
-              <li>
-                er aus gesundheitlichen Gründen nicht geimpft werden kann?
-              </li>
-              <li>er Angst vor den Nebenwirkungen hat?</li>
-              <li>
-                er vielleicht jemanden wegen den Nebenwirkungen verloren hat?
-              </li>
-              <li>
-                er dich lieber auf anderen Wegen schützt (Abstand bei
-                Krankheit)?
-              </li>
-              <li>
-                er durch den zunehmenden gesellschaftlichen Druck misstrauisch
-                ist?
-              </li>
-            </ul>
+          </p>
+          <ul
+            style={{
+              display: "block",
+              align: "left",
+              textAlign: "left",
+            }}
+          >
+            <li>er jemanden wegen Corona verloren hat?</li>
+            <li>er seine Liebsten schützen möchte?</li>
+            <li>er Angst vor Corona hat?</li>
+            <li>er sonst seinen Job verloren hätte?</li>
+            <li>er wieder ein halbwegs normales Leben zurück möchte?</li>
+          </ul>
+          Lieber Geimpfter, vielleicht ist dein Mitmensch nicht geimpft, weil…{" "}
+          <br />
+          <ul
+            style={{
+              display: "block",
+              align: "left",
+              textAlign: "left",
+            }}
+          >
+            <li>er aus gesundheitlichen Gründen nicht geimpft werden kann?</li>
+            <li>er Angst vor den Nebenwirkungen hat?</li>
+            <li>
+              er vielleicht jemanden wegen den Nebenwirkungen verloren hat?
+            </li>
+            <li>
+              er dich lieber auf anderen Wegen schützt (Abstand bei Krankheit)?
+            </li>
+            <li>
+              er durch den zunehmenden gesellschaftlichen Druck misstrauisch
+              ist?
+            </li>
+          </ul>
+          <p>
             Möchtest du, dass dein Kind/Enkelkind in einer Welt voller Hass und
             Ausgrenzung aufwächst? Möchtest du dass all deine Freundschaften
             zerbrechen, weil ihr nicht derselben Meinung seid? Möchtest du
