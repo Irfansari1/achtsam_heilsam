@@ -21,7 +21,7 @@ const data = [
     link: "http://www.benediktushof-holzkirchen.de/",
     text: "Hier können Menschen in Stille zu sich selbst kommen, sich auf Wesentliches besinnen und mit lebenspraktischen Impulsen gestärkt in den Alltag zurückkehren.",
     imageurl:
-      "https://www.benediktushof-holzkirchen.de/wp-content/uploads/2019/06/logo_benediktushof.png",
+      "https://www.galerie-lindelbach.de/wp-content/uploads/Holzkirchen-97292-011-VS1.jpg",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const data = [
     link: "https://eckharttolle.de/",
     text: "Wie wäre dein Leben ohne die Gedanken an Gestern und die Sorgen um Morgen? – Glücklicher, leichter, freier? Die gute Nachricht: Ein Leben im Hier und Jetzt ist möglich!",
     imageurl:
-      "https://i.ontraport.com/208371.0fe2a4a1cb9f9809322b42c47c639ce6.JPEG",
+      "https://res.cloudinary.com/pim-red/image/upload/c_thumb,f_auto,g_face,h_500,q_auto,r_max,w_500/v1624012621/kamphausen/persons/PHOTO-Eckhart_1916R_square-2048x2048_i8sqse.jpg",
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const data = [
     link: "https://www.naturundheilen.de/",
     text: "Käse steckt heutzutage in vielen unserer Lieblingsgerichte – sei es in der Lasagne, auf der Pizza vom Italiener nebenan, im Caesar Salat oder auf dem Brot, das wir mit auf den Berg oder ins Büro nehmen.",
     imageurl:
-      "https://www.naturundheilen.de/uploads/tx_templavoila/Archiv_0120_Cover_261x380px.jpg",
+      "https://v-z-b.de/wp-content/uploads/2021/11/Natur-Heilen_edited.jpg",
   },
   {
     id: 7,

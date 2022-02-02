@@ -1,25 +1,13 @@
-/* const Footer = () => {
-  return (
-    <footer
-      className="text-center bg-dark p-3 fixed-bottom"
-      style={{ marginTop: "30px" }}
-    >
-      <p className="text-light">Copyright 2022</p>
-    </footer>
-  );
-};
-
-export default Footer; */
-
 import React from "react";
 import "./Footer.css";
+import renlogo from "../../img/renlogo.png";
 
 function Footer() {
   return (
     <div className="main-footer bg-dark p-3 pb-0">
       <div className="container">
         <div className="row">
-          {/* Column1 */}
+          {/* Column2 */}
           <div className="col">
             <h4>Achtsam & Heilsam</h4>
             <ul className="list-unstyled">
@@ -30,7 +18,21 @@ function Footer() {
               <li>Hochzeitszeremonien/ Rituale</li>
             </ul>
           </div>
-          {/* Column2 */}
+          {/* Column1 */}
+          <div className="col">
+            <img
+              src={renlogo}
+              alt="Renate Buchwald"
+              style={{
+                width: "11rem",
+                padding: "10px",
+                backgroundColor: "white",
+                borderRadius: "10px",
+              }}
+            />
+          </div>
+
+          {/* Column3 */}
           <div className="col">
             <h4>So erreichen Sie mich</h4>
             <ul className="list-unstyled">
@@ -40,14 +42,14 @@ function Footer() {
               <li>03643 49 09 86</li>
             </ul>
           </div>
-          {/* Column3 */}
+          {/* Column4 */}
           <div className="col">
             <p>
               <iframe
                 title="myAddres"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2511.956959941812!2d11.32652641591051!3d50.97998615694794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a41ac4a28ab31b%3A0x89f9578721c8c920!2sMarktstra%C3%9Fe%2014%2C%2099423%20Weimar!5e0!3m2!1sen!2sde!4v1643568240022!5m2!1sen!2sde"
-                width="300"
-                height="200"
+                width="250"
+                height="150"
                 style={{ border: "0" }}
                 allowFullScreen=""
                 loading="lazy"

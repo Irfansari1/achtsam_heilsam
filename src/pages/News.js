@@ -40,6 +40,7 @@ const News = () => {
             Ubuntu-Webseiten
           </p>
           <Button
+            variant="outline-primary"
             href="https://www.ubuntu.vision/390/ubuntu-germany/warum-ubuntu-bewegung"
             target="_blank"
             rel="noreferrer"
@@ -47,6 +48,7 @@ const News = () => {
             Ubuntu Bewegung
           </Button>{" "}
           <Button
+            variant="outline-primary"
             href="https://www.youtube.com/watch?v=O7WNhGnW-IM"
             target="_blank"
             rel="noreferrer"

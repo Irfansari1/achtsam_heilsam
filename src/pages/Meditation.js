@@ -8,8 +8,8 @@ const Meditation = () => {
 
   const navigate = useNavigate();
   return (
-    <Container className=" text-center mt-4">
-      <Row>
+    <Container className="d-flex text-center mt-4" style={{ height: "85vh" }}>
+      <Row className=" my-auto">
         <Col>
           <h1>Meditation & Entspannung</h1>
           <br />
@@ -39,7 +39,7 @@ const Meditation = () => {
 
           <Nav className="justify-content-center" onSelect={clickHandler}>
             <Nav.Link eventKey="seminare">
-              <Button>Seminar/Kurse</Button>
+              <Button variant="outline-primary">Seminar/Kurse</Button>
             </Nav.Link>
           </Nav>
         </Col>

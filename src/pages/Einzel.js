@@ -93,7 +93,7 @@ const einzel = () => {
         </div>
       </div>
 
-      <section class="section section--light">
+      <section className="section section--light">
         <h2>Familienstellen / Systemische Aufstellungen</h2>
         <p>
           <img

@@ -3,16 +3,11 @@ import hochzeit from "../img/hochzeit.jpg";
 
 const Hochzeit = () => {
   return (
-    <Container className="text-center mt-4">
+    <Container className="text-center mt-4" style={{ height: "85vh" }}>
       <Row>
         <Col className="d-flex align-item-center justify-content-center">
           <div>
-            <img
-              src={hochzeit}
-              alt="hochzeit"
-              className="rounded"
-              style={{ display: "inline" }}
-            />
+            <img src={hochzeit} alt="hochzeit" className="rounded" />
           </div>
         </Col>
         <Col>

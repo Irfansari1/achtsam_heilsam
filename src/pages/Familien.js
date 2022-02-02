@@ -67,10 +67,10 @@ const Familien = () => {
           </p>
           <Nav className="justify-content-center" onSelect={clickHandler}>
             <Nav.Link eventKey="einzel">
-              <Button>Einzelarbeit</Button>
+              <Button variant="outline-primary">Einzelarbeit</Button>
             </Nav.Link>
             <Nav.Link eventKey="seminare">
-              <Button>Seminar/Kurse</Button>
+              <Button variant="outline-primary">Seminar/Kurse</Button>
             </Nav.Link>
           </Nav>
         </Col>

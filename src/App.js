@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.css";
 import MyNav from "./components/MyNav";
-import Footer from "./components/Footer";
+import Footer from "./components/footer/Footer";
 import Startseite from "./pages/Startseite";
 import Seminare from "./pages/Seminare";
 import News from "./pages/News";

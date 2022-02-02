@@ -1,7 +1,6 @@
 import React from "react";
 import { Nav, Container, Navbar, NavDropdown } from "react-bootstrap";
 import logo from "../img/achtsamlogo.png";
-import renlogo from "../img/renlogo.png";
 import { useNavigate } from "react-router-dom";
 
 //navbar content clash must be fixed!!!!!!!!!
@@ -12,7 +11,7 @@ const MyNav = () => {
     <div>
       <Container>
         <Navbar
-          className="fixed-top"
+          className="fixed-top border-3"
           bg="light"
           expand="lg"
           onSelect={(eventKey) =>
@@ -20,22 +19,20 @@ const MyNav = () => {
           }
         >
           <Navbar.Brand>
-            <Nav.Link eventKey="startseite">
-              <img
-                src={renlogo}
-                alt="Renate Buchwald"
-                style={{ width: "11rem", paddingLeft: "20px" }}
-              />
+            <Nav.Link eventKey="startseite" className="bg-light rounded m-2">
               <img
                 src={logo}
                 alt="Achtsam & Heilsam"
-                style={{ width: "11rem", paddingLeft: "20px" }}
+                style={{
+                  width: "11rem",
+                  paddingLeft: "20px",
+                }}
               />
             </Nav.Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
+          <Navbar.Toggle aria-controls="basic-navbar-nav " />
+          <Navbar.Collapse id="basic-navbar-nav ">
+            <Nav className="ms-auto fs-5  ">
               <NavDropdown title="Angebote" id="basic-nav-dropdown">
                 <NavDropdown.Item eventKey="familien">
                   Familienstellen_Aufstellungen
@@ -50,7 +47,9 @@ const MyNav = () => {
                   Meditation
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link eventKey="about">Über_mich</Nav.Link>
+              <Nav.Link className="nav-links" eventKey="about">
+                Über_mich
+              </Nav.Link>
               <Nav.Link eventKey="seminare">Seminare_Kurse</Nav.Link>
               <Nav.Link eventKey="news">News</Nav.Link>
               <Nav.Link eventKey="links">Links</Nav.Link>

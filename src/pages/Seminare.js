@@ -4,8 +4,8 @@ import archiv from "../helpers/Archiv.pdf";
 
 const Seminare = () => {
   return (
-    <Container className="text-center mt-4">
-      <Row>
+    <Container className="d-flex text-center mt-4" style={{ height: "85vh" }}>
+      <Row className="my-auto">
         <Col>
           <h1>Seminare & Kurse</h1>
           <br />
@@ -22,7 +22,12 @@ const Seminare = () => {
             Überzeugungen und eingefahrener Bahnen. In den Einzelsitzungen
             begleite ich Sie/Euch weiterhin dabei.
           </p>
-          <Button href={archiv} target="_blank" rel="noreferrer">
+          <Button
+            variant="outline-primary"
+            href={archiv}
+            target="_blank"
+            rel="noreferrer"
+          >
             Archiv Veranstaltungen
           </Button>
         </Col>

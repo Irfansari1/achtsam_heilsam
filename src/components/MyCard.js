@@ -21,7 +21,7 @@ const MyCard = (props) => {
           </Button>
         ) : (
           <Button
-            style={{ background: "#1273DE" }}
+            variant="outline-primary"
             href={link}
             target="_blank"
             rel="noreferrer"
@@ -29,13 +29,6 @@ const MyCard = (props) => {
             Details
           </Button>
         )}
-
-        {/* <Button
-          style={{ background: "#1273DE" }}
-          onClick={() => navigate(`/${link}`)}
-        >
-          Details
-        </Button> */}
       </Card.Body>
     </Card>
   );
