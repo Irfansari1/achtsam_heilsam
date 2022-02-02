@@ -6,7 +6,7 @@ import angebotData from "../data/angebotData";
 const Startseite = () => {
   return (
     <>
-      <Sliders data={angebotData} />
+      <Sliders />
       <h1 className="text-center">Angebote</h1>
       <MyCards data={angebotData} />
       <br />
