@@ -1,5 +1,5 @@
 import { Col, Row, Container } from "react-bootstrap";
-import hochzeit from "../img/hochzeit.jpg";
+import hochzeit from "../assets/hochzeit.jpg";
 
 const Hochzeit = () => {
   return (

@@ -1,5 +1,5 @@
 import { Row, Col, Container } from "react-bootstrap";
-import MyCard from "./MyCard";
+import MyCard from "../cards/MyCard";
 
 const MyCards = ({ data }) => {
   return (

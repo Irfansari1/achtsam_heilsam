@@ -1,6 +1,6 @@
 import { Col, Row, Container } from "react-bootstrap";
-import contact from "../img/contact.jpg";
-import Renate2 from "../img/Renate2.jpg";
+import contact from "../assets/contact.jpg";
+import Renate2 from "../assets/Renate2.jpg";
 
 const Kontakt = () => {
   return (

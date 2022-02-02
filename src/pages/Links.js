@@ -1,6 +1,5 @@
 import React from "react";
-import MyCards from "../components/MyCards";
-
+import MyCards from "../components/cards/MyCards";
 import linkData from "../data/linkData";
 
 const Links = () => {

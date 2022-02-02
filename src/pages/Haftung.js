@@ -1,5 +1,5 @@
 import { Col, Row, Container } from "react-bootstrap";
-import medi3 from "../img/medi3.jpg";
+import medi3 from "../assets/medi3.jpg";
 
 const Seminare = () => {
   return (

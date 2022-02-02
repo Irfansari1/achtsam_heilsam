@@ -1,5 +1,5 @@
 import { Nav, Col, Row, Container } from "react-bootstrap";
-import Renate from "../img/Renate1.jpg";
+import Renate from "../assets/Renate1.jpg";
 import { useNavigate } from "react-router-dom";
 const About = () => {
   const clickHandler = (eventKey) =>

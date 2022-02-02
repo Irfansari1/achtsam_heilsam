@@ -1,5 +1,5 @@
 import { Nav, Col, Row, Container, Button } from "react-bootstrap";
-import medi2 from "../img/medi2.jpg";
+import medi2 from "../assets/medi2.jpg";
 import { useNavigate } from "react-router-dom";
 
 const Meditation = () => {

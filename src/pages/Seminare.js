@@ -1,5 +1,5 @@
 import { Col, Row, Container, Button } from "react-bootstrap";
-import seminar2 from "../img/seminar2.jpg";
+import seminar2 from "../assets/seminar2.jpg";
 import archiv from "../helpers/Archiv.pdf";
 
 const Seminare = () => {

@@ -1,11 +1,11 @@
 import React from "react";
 import "../einzel/einzel.css";
-import methoden from "../../img/methoden.jpg";
-import reenk from "../../img/reenk.jpg";
-import family from "../../img/family.jpg";
-import voice from "../../img/voice.jpg";
-import eft from "../../img/eft.jpg";
-import rit from "../../img/rit.jpg";
+import methoden from "../../assets/methoden.jpg";
+import reenk from "../../assets/reenk.jpg";
+import family from "../../assets/family.jpg";
+import voice from "../../assets/voice.jpg";
+import eft from "../../assets/eft.jpg";
+import rit from "../../assets/rit.jpg";
 
 const einzel = () => {
   return (

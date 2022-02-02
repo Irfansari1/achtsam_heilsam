@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import renlogo from "../../img/renlogo.png";
+import renlogo from "../../assets/renlogo.png";
 
 function Footer() {
   return (

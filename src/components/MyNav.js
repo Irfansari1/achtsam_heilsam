@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Container, Navbar, NavDropdown } from "react-bootstrap";
-import logo from "../img/achtsamlogo.png";
+import logo from "../assets/achtsamlogo.png";
 import { useNavigate } from "react-router-dom";
 
 //navbar content clash must be fixed!!!!!!!!!

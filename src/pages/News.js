@@ -1,6 +1,6 @@
 import { Col, Row, Container, Button } from "react-bootstrap";
-import ubuntu from "../img/ubuntu.png";
-import corona from "../img/corona.png";
+import ubuntu from "../assets/ubuntu.png";
+import corona from "../assets/corona.png";
 
 const News = () => {
   return (

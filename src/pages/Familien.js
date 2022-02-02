@@ -1,5 +1,5 @@
 import { Col, Row, Container, Button, Nav } from "react-bootstrap";
-import family2 from "../img/family2.jpg";
+import family2 from "../assets/family2.jpg";
 import { useNavigate } from "react-router-dom";
 
 const Familien = () => {
