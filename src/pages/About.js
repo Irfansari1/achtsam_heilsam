@@ -50,31 +50,33 @@ const About = () => {
             auch der Weg sein. Doch wie schön ist es, nach dem Abstreifen einer
             „Zwiebelschale“ Lebensfreude zu spüren, inneren Frieden oder
             Selbstannahme und -liebe. Schwerpunkte meiner Arbeit heute sind:
-            <Nav onSelect={clickHandler}>
-              <ul>
-                <li>
-                  <Nav.Link eventKey="familien">
-                    Familienstellen & Systemische Aufstellungen
-                  </Nav.Link>
-                </li>
-                <li>
-                  <Nav.Link eventKey="einzel">
-                    Rückführungen, Reinkarnationstherapie
-                  </Nav.Link>
-                </li>
-                <li>
-                  <Nav.Link eventKey="einzel">
-                    Voice-Dialogue, EFT, Rituale
-                  </Nav.Link>
-                </li>
-                <li>
-                  <Nav.Link eventKey="einzel">Individuelle Begleitung</Nav.Link>
-                </li>
-                <li>
-                  <Nav.Link eventKey="hochzeit">Hochzeitszeremonien</Nav.Link>
-                </li>
-              </ul>
-            </Nav>
+          </p>
+          <Nav onSelect={clickHandler}>
+            <ul>
+              <li>
+                <Nav.Link eventKey="familien">
+                  Familienstellen & Systemische Aufstellungen
+                </Nav.Link>
+              </li>
+              <li>
+                <Nav.Link eventKey="einzel">
+                  Rückführungen, Reinkarnationstherapie
+                </Nav.Link>
+              </li>
+              <li>
+                <Nav.Link eventKey="einzel">
+                  Voice-Dialogue, EFT, Rituale
+                </Nav.Link>
+              </li>
+              <li>
+                <Nav.Link eventKey="einzel">Individuelle Begleitung</Nav.Link>
+              </li>
+              <li>
+                <Nav.Link eventKey="hochzeit">Hochzeitszeremonien</Nav.Link>
+              </li>
+            </ul>
+          </Nav>
+          <p>
             In der „Individuellen Begleitung“ arbeite ich je nach Person,
             Stimmung, Verfassung & Lebensumständen mit vorgenannten Methoden,
             EFT und Ansätzen aus Gestalttherapie, Ritual- und schamanischer
@@ -87,62 +89,62 @@ const About = () => {
           <p>
             Ich danke meinen Lehrerinnen und Lehrern, bei denen ich viel über
             mich und die Methoden, die ich heute anwende, gelernt habe.
-            <ul>
-              <li>Diplom-Sozialarbeit, 1984 – 1989 / FH Berlin</li>
-              <li>
-                Kommunikationsweiterbildung & Einführung in Eutonie, 1989 – 1991
-                / Berlin bei Jutta Malcher/Diplomsupervisorin, Sr. Irmgardis
-                Michels/OSF
-              </li>
-              <li>
-                Heilfastenweiterbildung, 1991/1994 bei Christoph Michl, Martha
-                Meutes
-              </li>
-              <li>
-                Meditationspraxis, ab 1992 bei Wilma Alfs, Beatrice Grimm,
-                Willigis Jäger / St. Benedikthaus Würzburg / Benediktushof
-                Holzkirchen
-              </li>
-              <li>
-                Holotropes Atmen & Enlightment intensiv, 1992 – 1998 bei Martha
-                Meutes /Gossenberg Heilende Hände, 1994 / 2010 bei Maria Werner
-                /Leipzig bei Luise Prodinger /St. Benedikthaus Würzburg bei Anne
-                Höfler /St. Benedikthaus Würzburg
-              </li>
-              <li>
-                Gestaltarbeit nach Fritz Perls, 1995 - 1996 bei Heide Anne
-                Köllermann, Dana Wittlin Hoffmann / Lehrtherapeutinnen des
-                Fritz-Perls-Institutes Düsseldorf
-              </li>
-              <li>
-                Mikrokosmoswork / Rückführungen / Reinkarnationsarbeit, 1996 –
-                1998 bei Basir Roland Werner / Kirchberg-Hornberg
-              </li>
-              <li>
-                Familienstellen - Aufstellungsarbeit, ab 1998 bei
-                unterschiedlichen Aufstellungsleitern/Assistenz
-              </li>
-              <li> Schamanismus, 2001 - 2002 bei Manuela Ziemann /Detmold</li>
-              <li> Shin Tai, 2004 – 2005 bei Veronika Mager / Groß Chüden</li>
-              <li> Kinesiologie, 2004 - 2005 bei Silvia Astfalk / Berlin</li>
-              <li>
-                {" "}
-                Atemtherapie – Rebirthing - Breathconnection /
-                Transformationsarbeit, Voice-Dialog, EFT, 2004 – 2007 bei Nemi
-                Nath / Direktorin of Breathconnection Australien
-              </li>
-              <li>
-                {" "}
-                Kursleitung Progressive Muskelentspannung nach Jacobson, 2006
-                bei Sabine Söllner, Kassel / Bernd-Blindow-Schulen
-              </li>
-              <li>
-                {" "}
-                Familienstellen - Aufstellungsarbeit, 2010-2011 bei Dr. Renate
-                Wirth / Berlin
-              </li>
-            </ul>
           </p>
+          <ul>
+            <li>Diplom-Sozialarbeit, 1984 – 1989 / FH Berlin</li>
+            <li>
+              Kommunikationsweiterbildung & Einführung in Eutonie, 1989 – 1991 /
+              Berlin bei Jutta Malcher/Diplomsupervisorin, Sr. Irmgardis
+              Michels/OSF
+            </li>
+            <li>
+              Heilfastenweiterbildung, 1991/1994 bei Christoph Michl, Martha
+              Meutes
+            </li>
+            <li>
+              Meditationspraxis, ab 1992 bei Wilma Alfs, Beatrice Grimm,
+              Willigis Jäger / St. Benedikthaus Würzburg / Benediktushof
+              Holzkirchen
+            </li>
+            <li>
+              Holotropes Atmen & Enlightment intensiv, 1992 – 1998 bei Martha
+              Meutes /Gossenberg Heilende Hände, 1994 / 2010 bei Maria Werner
+              /Leipzig bei Luise Prodinger /St. Benedikthaus Würzburg bei Anne
+              Höfler /St. Benedikthaus Würzburg
+            </li>
+            <li>
+              Gestaltarbeit nach Fritz Perls, 1995 - 1996 bei Heide Anne
+              Köllermann, Dana Wittlin Hoffmann / Lehrtherapeutinnen des
+              Fritz-Perls-Institutes Düsseldorf
+            </li>
+            <li>
+              Mikrokosmoswork / Rückführungen / Reinkarnationsarbeit, 1996 –
+              1998 bei Basir Roland Werner / Kirchberg-Hornberg
+            </li>
+            <li>
+              Familienstellen - Aufstellungsarbeit, ab 1998 bei
+              unterschiedlichen Aufstellungsleitern/Assistenz
+            </li>
+            <li> Schamanismus, 2001 - 2002 bei Manuela Ziemann /Detmold</li>
+            <li> Shin Tai, 2004 – 2005 bei Veronika Mager / Groß Chüden</li>
+            <li> Kinesiologie, 2004 - 2005 bei Silvia Astfalk / Berlin</li>
+            <li>
+              {" "}
+              Atemtherapie – Rebirthing - Breathconnection /
+              Transformationsarbeit, Voice-Dialog, EFT, 2004 – 2007 bei Nemi
+              Nath / Direktorin of Breathconnection Australien
+            </li>
+            <li>
+              {" "}
+              Kursleitung Progressive Muskelentspannung nach Jacobson, 2006 bei
+              Sabine Söllner, Kassel / Bernd-Blindow-Schulen
+            </li>
+            <li>
+              {" "}
+              Familienstellen - Aufstellungsarbeit, 2010-2011 bei Dr. Renate
+              Wirth / Berlin
+            </li>
+          </ul>
         </Col>
       </Row>
       <br />

@@ -10,27 +10,27 @@ body {
   line-height: 1.8rem;
 }
 .background--image1 {
-  background-image: url(../img/constellation.jpg);
+  background-image: url(../../img/constellation.jpg);
   min-height: 50rem;
 }
 .background--image2 {
-  background-image: url(../img/serenity.jpg);
+  background-image: url(../../img/serenity.jpg);
   min-height: 50rem;
 }
 .background--image3 {
-  background-image: url(../img/joy.jpg);
+  background-image: url(../../img/joy.jpg);
   min-height: 50rem;
 }
 .background--image4 {
-  background-image: url(../img/medi.jpg);
+  background-image: url(../../img/medi.jpg);
   min-height: 50rem;
 }
 .background--image5 {
-  background-image: url(../img/potential.jpg);
+  background-image: url(../../img/potential.jpg);
   min-height: 50rem;
 }
 .background--image6 {
-  background-image: url(../img/stress.jpg);
+  background-image: url(../../img/stress.jpg);
   min-height: 50rem;
 }
 .background--image1,

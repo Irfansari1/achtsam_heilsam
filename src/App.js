@@ -9,7 +9,7 @@ import Links from "./pages/Links";
 import Kontakt from "./pages/Kontakt";
 import Familien from "./pages/Familien";
 import Hochzeit from "./pages/Hochzeit";
-import Einzel from "./pages/Einzel";
+import Einzel from "./pages/einzel/Einzel";
 import Meditation from "./pages/Meditation";
 import Übermich from "./pages/About";
 import Haftung from "./pages/Haftung";
