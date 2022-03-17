@@ -4,8 +4,8 @@ import archiv from "../helpers/Archiv.pdf";
 
 const Seminare = () => {
   return (
-    <Container className="d-flex text-center mt-4" style={{ height: "85vh" }}>
-      <Row className="my-auto">
+    <Container fluid className="d-flex text-center mt-4">
+      <Row className="my-auto xs-1">
         <Col>
           <h1>Seminare & Kurse</h1>
           <br />
@@ -30,9 +30,14 @@ const Seminare = () => {
           >
             Archiv Veranstaltungen
           </Button>
+          <br />
+          <br />
         </Col>
-        <Col className="d-flex align-item-center justify-content-center">
+
+        <Col className=" align-item-center justify-content-center">
           <img src={seminar2} alt="seminar" className="rounded" />
+          <br />
+          <br />
         </Col>
       </Row>
     </Container>

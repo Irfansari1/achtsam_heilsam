@@ -1,7 +1,8 @@
 import React from "react";
 import { Nav, Container, Navbar, NavDropdown } from "react-bootstrap";
-import logo from "../assets/achtsamlogo.png";
+import logo from "../../assets/achtsamlogo.png";
 import { useNavigate } from "react-router-dom";
+import "../navbar/MyNav.css";
 
 //navbar content clash must be fixed!!!!!!!!!
 
@@ -11,8 +12,9 @@ const MyNav = () => {
     <div>
       <Container>
         <Navbar
+          style={{ backgroundColor: "#D5D4CF" }}
           className="fixed-top border-3"
-          bg="light"
+          //bg="light"
           expand="lg"
           onSelect={(eventKey) =>
             eventKey === "startseite" ? navigate("/") : navigate(`/${eventKey}`)
@@ -30,9 +32,19 @@ const MyNav = () => {
               />
             </Nav.Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav " />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav "
+            style={{
+              marginRight: "5%",
+            }}
+          />
           <Navbar.Collapse id="basic-navbar-nav ">
-            <Nav className="ms-auto fs-5  ">
+            <Nav
+              className="ms-auto fs-5  "
+              style={{
+                marginRight: "10%",
+              }}
+            >
               <NavDropdown title="Angebote" id="basic-nav-dropdown">
                 <NavDropdown.Item eventKey="familien">
                   Familienstellen_Aufstellungen
@@ -47,13 +59,21 @@ const MyNav = () => {
                   Meditation
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link className="nav-links" eventKey="about">
+              <Nav.Link classsName="nav-links" eventKey="about">
                 Über_mich
               </Nav.Link>
-              <Nav.Link eventKey="seminare">Seminare_Kurse</Nav.Link>
-              <Nav.Link eventKey="news">News</Nav.Link>
-              <Nav.Link eventKey="links">Links</Nav.Link>
-              <Nav.Link eventKey="kontakt">Kontakt</Nav.Link>
+              <Nav.Link classsName="nav-links" eventKey="seminare">
+                Seminare_Kurse
+              </Nav.Link>
+              <Nav.Link classsName="nav-links" eventKey="news">
+                News
+              </Nav.Link>
+              <Nav.Link classsName="nav-links" eventKey="links">
+                Links
+              </Nav.Link>
+              <Nav.Link classsName="nav-links" eventKey="kontakt">
+                Kontakt
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

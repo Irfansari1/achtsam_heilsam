@@ -8,7 +8,7 @@ const Meditation = () => {
 
   const navigate = useNavigate();
   return (
-    <Container className="d-flex text-center mt-4" style={{ height: "85vh" }}>
+    <Container className="d-flex text-center mt-4" style={{ height: "100%" }}>
       <Row className=" my-auto">
         <Col>
           <h1>Meditation & Entspannung</h1>
@@ -40,11 +40,14 @@ const Meditation = () => {
           <Nav className="justify-content-center" onSelect={clickHandler}>
             <Nav.Link eventKey="seminare">
               <Button variant="outline-primary">Seminar/Kurse</Button>
+              <br />
+              <br />
             </Nav.Link>
           </Nav>
         </Col>
-        <Col className="d-flex align-item-center justify-content-center">
+        <Col className="align-item-center justify-content-center">
           <img src={medi2} alt="leaves" className="rounded" />
+          <br />
         </Col>
       </Row>
     </Container>

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import MyNav from "../components/MyNav";
+import MyNav from "../components/navbar/MyNav";
 import Footer from "../components/footer/Footer";
 import Startseite from "../pages/Startseite";
 import Seminare from "../pages/Seminare";
@@ -15,6 +15,7 @@ import Meditation from "../pages/Meditation";
 import Übermich from "../pages/About";
 import Haftung from "../pages/Haftung";
 import "../router/AppRouter";
+import "../router/AppRouter.css";
 
 export const AppRouter = () => {
   return (

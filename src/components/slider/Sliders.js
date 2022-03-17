@@ -4,7 +4,7 @@ import { Carousel } from "react-bootstrap";
 import angebotData from "../../data/angebotData.js";
 
 const Sliders = () => {
-  const [myData, setmyData] = useState(angebotData);
+  const [myData, setMyData] = useState(angebotData);
 
   return (
     <div>

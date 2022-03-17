@@ -4,7 +4,7 @@ import Renate2 from "../assets/Renate2.jpg";
 
 const Kontakt = () => {
   return (
-    <Container className="d-flex text-center mt-4" style={{ height: "85vh" }}>
+    <Container className="d-flex text-center mt-4">
       <Row className="my-auto">
         <Col className="d-flex-column flex-basis-1">
           <img
@@ -32,9 +32,12 @@ const Kontakt = () => {
             <li>mail@achtsam-heilsam.de</li>
             <li>03643 49 09 86</li>
           </ul>
+          <br />
         </Col>
-        <Col className="d-flex align-item-center justify-content-center">
+        <Col className="align-item-center justify-content-center">
           <img src={contact} alt="kontakt" className="rounded" />
+          <br />
+          <br />
         </Col>
       </Row>
     </Container>
